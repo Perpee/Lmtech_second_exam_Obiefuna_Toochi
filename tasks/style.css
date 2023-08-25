@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+h2{
+    padding: 20px;
+    color: wheat;
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+button{
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+
+}
+
+.genContainer{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    background-color:white;
+    height: 50%;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.container{
+    background-color: wheat;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.container2{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: wheat;
+}
+
+p{
+    color: brown;
+    font-family: cursive;
+}
